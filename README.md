@@ -1,4 +1,4 @@
-# Contador de Tiempo
+# Juego Quiz App
 
 Programa hecho en HTML y Javascript que muestra por pantalla una serie de preguntas con cuatro posibles respuestas, ¡y sólo una es verdadera!
 
