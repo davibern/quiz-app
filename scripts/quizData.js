@@ -24,14 +24,6 @@ const quizData = [
         correct: 'c'
     },
     {
-        question: '¿Cuántos canales tiene Slobulus en Youtube?',
-        a: '1',
-        b: '2',
-        c: '3',
-        d: '4',
-        correct: 'c'
-    },
-    {
         question: '¿Cuál es el RPG favorito de Slobulus?',
         a: 'Chrono Trigger',
         b: 'Dragon Quest',
