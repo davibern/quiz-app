@@ -33,9 +33,9 @@ const quizData = [
     },
     {
         question: '¿Cuál es el RPG favorito de Slobulus?',
-        a: 'Terranigma',
+        a: 'Chrono Trigger',
         b: 'Dragon Quest',
-        c: 'Final Fantasy',
+        c: 'Final Fantasy X',
         d: 'FIFA 21',
         correct: 'b'
     },
@@ -52,7 +52,7 @@ const quizData = [
         a: 'Físico Teórico',
         b: 'Profesor Chiflado',
         c: 'Ajedrecista',
-        d: 'Profesor Chiflado',
+        d: 'Químico loco',
         correct: 'a'
     },
     {
@@ -79,5 +79,13 @@ const quizData = [
         d: 'Batidos de vanilla',
         correct: 'c'
 
+    },
+    {
+        question: '¿Qué videojuego intentaron robar los bubillos?',
+        a: 'Minecraft',
+        b: 'Street of Rage',
+        c: 'Comandos',
+        d: 'Tetris 99',
+        correct: 'b'
     }
 ]

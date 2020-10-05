@@ -81,7 +81,16 @@ submitBtn.addEventListener('click', ()=> {
         } else {
             quiz.innerHTML = `
                 <h2>Tus respuestas correctas son ${score}/${quizData.length}</h2>
-            
+
+                <p>
+                    0-1: Cuñao<br/>
+                    2-3: Clodomiro<br/>
+                    4-5: Plumilla<br/>
+                    6-7: Bubillo<br/>
+                    8-9: Feriante<br/>
+                    +10: Genio de las calles
+                </p>
+
                 <button onclick="location.reload()">Reiniciar</button>
                 `
         }
