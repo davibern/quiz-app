@@ -5,6 +5,7 @@ const quizData = [
         b: 'Plumillas Gamer',
         c: 'Viciados Podcasts',
         d: 'No dirige nada',
+        img: './pics/podcast.jpg',
         correct: 'c'
     },
     {
@@ -13,6 +14,7 @@ const quizData = [
         b: 'Juegos de Spectrum',
         c: 'Spectrum Games',
         d: 'Historia de Spectrum',
+        img: './pics/spectrum.jpg',
         correct: 'a'
     },
     {
@@ -21,6 +23,7 @@ const quizData = [
         b: '35',
         c: '33',
         d: '65',
+        img: './pics/abuelonchos.jpg',
         correct: 'c'
     },
     {
@@ -29,6 +32,7 @@ const quizData = [
         b: 'Dragon Quest',
         c: 'Final Fantasy X',
         d: 'FIFA 21',
+        img: './pics/rpg.jpg',
         correct: 'b'
     },
     {
@@ -37,6 +41,7 @@ const quizData = [
         b: 'Castlevania Simphony of the Night',
         c: 'Flashback',
         d: 'Visage',
+        img: './pics/gameplay.jpg',
         correct: 'c'
     },
     {
@@ -45,6 +50,7 @@ const quizData = [
         b: 'Profesor Chiflado',
         c: 'Ajedrecista',
         d: 'Químico loco',
+        img: './pics/trabajo.jpg',
         correct: 'a'
     },
     {
@@ -53,7 +59,8 @@ const quizData = [
         b: 'FIFA 15',
         c: 'FIFA 16',
         d: 'PES 2015',
-        correct: 'b'
+        correct: 'b',
+        img: './pics/abuelonchos.jpg',
     },
     {
         question: '¿De qué color son los calcetines de un bubillo?',
@@ -61,6 +68,7 @@ const quizData = [
         b: 'Rojos',
         c: 'Verdes',
         d: 'Blancos',
+        img: './pics/calcetines.jpg',
         correct: 'd'
     },
     {
@@ -69,7 +77,8 @@ const quizData = [
         b: 'Calcetines blancos',
         c: 'Navaja de Albacete',
         d: 'Batidos de vanilla',
-        correct: 'c'
+        img: './pics/kit-calle.jpg',
+        correct: 'c',
 
     },
     {
@@ -78,6 +87,25 @@ const quizData = [
         b: 'Street of Rage',
         c: 'Comandos',
         d: 'Tetris 99',
+        img: './pics/bubillos.jpg',
         correct: 'b'
+    },
+    {
+        question: 'Piloto favorito de Slobulus de todos los tiempos',
+        a: 'Maldonado',
+        b: 'Alonso',
+        c: 'Senna',
+        d: 'Kimi',
+        img: './pics/f1.jpg',
+        correct: 'b'
+    },
+    {
+        question: '¿Con qué mano paga Almeida en el bar?',
+        a: 'Con la derecha',
+        b: 'Con la izquierda',
+        c: 'Le fían',
+        d: 'Hace que paga pero no suelta billetes',
+        img: './pics/almeida.jpg',
+        correct: 'd'
     }
 ]

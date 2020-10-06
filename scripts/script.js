@@ -2,6 +2,7 @@
 
 // Variables que obtiene datos del DOM
 const quiz = document.getElementById('quiz');
+const quizImg = document.getElementById('quiz-image');
 const answersEls = document.querySelectorAll(".answer");
 const questionEl = document.getElementById('question');
 const a_text = document.getElementById('a_text');
@@ -27,10 +28,12 @@ function loadQuiz() {
     questionEl.innerHTML = currentQuizData.question;
 
     // Valores de las respuestas que están guardadas en quizData
+    console.log(currentQuizData.img)
     a_text.innerHTML = currentQuizData.a;
     b_text.innerHTML = currentQuizData.b;
     c_text.innerHTML = currentQuizData.c;
     d_text.innerHTML = currentQuizData.d;
+    quizImg.style.backgroundImage = `url("${currentQuizData.img}")`;
 
 }
 
