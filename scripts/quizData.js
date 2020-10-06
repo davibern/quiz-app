@@ -97,7 +97,7 @@ const quizData = [
         c: 'Senna',
         d: 'Kimi',
         img: './pics/f1.jpg',
-        correct: 'b'
+        correct: 'd'
     },
     {
         question: '¿Con qué mano paga Almeida en el bar?',
