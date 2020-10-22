@@ -33,7 +33,7 @@ const quizData = [
         c: 'Final Fantasy X',
         d: 'FIFA 21',
         img: './pics/rpg.jpg',
-        correct: 'b'
+        correct: 'a'
     },
     {
         question: '¿Cuál fue el primer juego del que hizo una serie en el canal de Slobulus?',
