@@ -28,7 +28,6 @@ function loadQuiz() {
     questionEl.innerHTML = currentQuizData.question;
 
     // Valores de las respuestas que están guardadas en quizData
-    console.log(currentQuizData.img)
     a_text.innerHTML = currentQuizData.a;
     b_text.innerHTML = currentQuizData.b;
     c_text.innerHTML = currentQuizData.c;
