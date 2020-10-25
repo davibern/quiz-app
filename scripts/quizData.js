@@ -351,14 +351,14 @@ const quizData = [
         correct: 'c'
     },
     {
-        question: '¿Qué deporte le gustaba al abuelo de Slo y veía los viernes por la noche en Canal+?',
-        a: 'Fútbol',
-        b: 'Petanca',
-        c: 'NBA',
-        d: 'Boxeo',
+        question: '¿En qué canal de televisión se ve mejor el Boxeo?',
+        a: 'Netflix',
+        b: 'Canal+',
+        c: 'Antenta 3',
+        d: 'En ninguno de los anteriores',
         img: './pics/boxeo.jpg',
-        author: 'Davidbp_',
-        correct: 'd'
+        author: 'Roberto Piña',
+        correct: 'b'
     },
     {
         question: '¿Cuál es el sistema preferido de American Slo?',
@@ -369,6 +369,46 @@ const quizData = [
         img: './pics/american-slo.jpg',
         author: 'Davidbp_',
         correct: 'b' 
+    },
+    {
+        question: '¿El equipo favorito de Slo de NFL?',
+        a: 'Miami Dolphins',
+        b: 'Seattle Seahawks',
+        c: 'Tennesse Titans',
+        d: 'Dallas Cowboys',
+        img: './pics/nfl.jpg',
+        author: 'Roberto Piña',
+        correct: 'c'
+    },
+    {
+        question: '¿Cuál es el nombre de pila de Slobulus?',
+        a: 'Daniel',
+        b: 'Ignacio',
+        c: 'Miguel Ángel',
+        d: 'Kevin',
+        img: './pics/slobulus-series.jpg',
+        author: 'Roberto Piña',
+        correct: 'c'
+    },
+    {
+        question: '¿Qué tiene Slo colgado de la pared encima de su monitor?',
+        a: 'Una foto de Falete',
+        b: 'Un poster de Metroid',
+        c: 'Su título universitario de Físico Teórico',
+        d: 'Un esqueleto tocando la guitarra',
+        img: './pics/trinchera.jpg',
+        author: 'Roberto Piña',
+        correct: 'c'
+    },
+    {
+        question: '¿Donde nació Slobulus?',
+        a: 'Cataluña',
+        b: 'Andalucía',
+        c: 'Murcia',
+        d: 'Texas',
+        img: './pics/slobulus-series.jpg',
+        author: 'Alfon',
+        correct: 'a'
     }
 
 ]
