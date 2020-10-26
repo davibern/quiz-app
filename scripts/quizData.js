@@ -409,6 +409,167 @@ const quizData = [
         img: './pics/slobulus-series.jpg',
         author: 'Alfon',
         correct: 'a'
+    },
+    {
+        question: '¿Cuánto bits en Twitch prometieron regalarle a Slo si se pasaba un gimnasio sin morir ninguna vez?',
+        a: '1.000',
+        b: '2.000',
+        c: '3.500',
+        d: '5.000',
+        img: './pics/pokemon.jpg',
+        author: 'Davidbp_',
+        correct: 'c'
+    },
+    {
+        question: '¿Dónde nació Vassily, el genio de la carretera?',
+        a: 'Rusia',
+        b: 'Eslovaquia',
+        c: 'Ucrania',
+        d: 'Murcia',
+        img: './pics/vassily.jpg',
+        author: 'Davidbp_',
+        correct: 'c'
+    },
+    {
+        question: 'Si Slo hiciera un videojuego, ¿en qué universo lo ambientaría',
+        a: 'Terminator',
+        b: 'FIFA',
+        c: 'Robocop',
+        d: 'Jurassic Park',
+        img: './pics/universo.jpg',
+        author: 'Alfon',
+        correct: 'a'
+
+    },
+    {
+        question: '¿A quién le dejaba los apuntes de clase Slobulus?',
+        a: 'Al moco',
+        b: 'Al bubillo',
+        c: 'A la terminator',
+        d: 'Al kevin',
+        img: './pics/instituto.jpg',
+        author: 'Jorgefp88',
+        correct: 'd'
+    },
+    {
+        question: '¿Mote de Slo de pequeño en el colegio?',
+        a: 'Everest',
+        b: 'Mata-cobayas',
+        c: 'Terminator',
+        d: 'Porsche',
+        img: './pics/la-banda.jpg',
+        author: 'Alfon',
+        correct: 'a'
+    },
+    {
+        question: '¿Quien fue el primer jugador en ganar el Baston de Oro?',
+        a: 'Ibraimovic',
+        b: 'JuanFran',
+        c: 'Barry Richardson',
+        d: 'Messi',
+        img: './pics/abuelonchosfc.jpg',
+        author: 'Roberto Piña',
+        correct: 'c'
+    },
+    {
+        question: '¿Qué dispositivo de realidad virtual analizó American Slo?',
+        a: 'Virtual Boy',
+        b: 'PS VR',
+        c: 'Steam VR',
+        d: 'Oculus Rift',
+        img: './pics/american-slo.jpg',
+        author: 'Davidbp_',
+        correct: 'a'
+    },
+    {
+        question: '¿Cuál de los siguientes jugadores te puede dejar sin stock si le fichas para tu equipo de abuelonchos?',
+        a: 'Juanfran',
+        b: 'Joaquín',
+        c: 'Akinfenwa',
+        d: 'Iniesta',
+        img: './pics/abuelonchosfc.jpg',
+        author: 'Sergicontre',
+        correct: 'c'
+    },
+    {
+        question: '¿Con quién cenas si quedas el último en las canicas de Twitch?',
+        a: 'Bosescu',
+        b: 'Falete',
+        c: 'Bordalás',
+        d: 'Sabrina',
+        img: './pics/marbles.jpg',
+        author: 'Alfon',
+        correct: 'c'
+    },
+    {
+        question: '¿Cuál es el coche favorito de Slo en Wreckfest?',
+        a: 'Muddiger',
+        b: 'Rocket',
+        c: 'Killerbee',
+        d: 'Boomer',
+        img: './pics/wreckfest.jpg',
+        author: 'Cebolletagames',
+        correct: 'c'
+    },
+    {
+        question: '¿En qué canal de televisión se ve mejor el Boxeo?',
+        a: 'Netflix',
+        b: 'Canal+',
+        c: 'Antenta 3',
+        d: 'En ninguno de los anteriores',
+        img: './pics/boxeo.jpg',
+        author: 'Roberto Piña',
+        correct: 'b'
+    },
+    {
+        question: '¿Cuál es el sistema preferido de American Slo?',
+        a: 'Spectrum',
+        b: 'TurboGrafx',
+        c: 'Master System',
+        d: 'Odia los videojuegos',
+        img: './pics/american-slo.jpg',
+        author: 'Davidbp_',
+        correct: 'b' 
+    },
+    {
+        question: '¿El equipo favorito de Slo de NFL?',
+        a: 'Miami Dolphins',
+        b: 'Seattle Seahawks',
+        c: 'Tennesse Titans',
+        d: 'Dallas Cowboys',
+        img: './pics/nfl.jpg',
+        author: 'Roberto Piña',
+        correct: 'c'
+    },
+    {
+        question: '¿Cuál es el nombre de pila de Slobulus?',
+        a: 'Daniel',
+        b: 'Ignacio',
+        c: 'Miguel Ángel',
+        d: 'Kevin',
+        img: './pics/slobulus-series.jpg',
+        author: 'Roberto Piña',
+        correct: 'c'
+    },
+    {
+        question: '¿Qué tiene Slo colgado de la pared encima de su monitor?',
+        a: 'Una foto de Falete',
+        b: 'Un poster de Metroid',
+        c: 'Su título universitario de Físico Teórico',
+        d: 'Un esqueleto tocando la guitarra',
+        img: './pics/trinchera.jpg',
+        author: 'Roberto Piña',
+        correct: 'c'
+    },
+    {
+        question: '¿Donde nació Slobulus?',
+        a: 'Cataluña',
+        b: 'Andalucía',
+        c: 'Murcia',
+        d: 'Texas',
+        img: './pics/slobulus-series.jpg',
+        author: 'Alfon',
+        correct: 'a'
     }
 
 ]
