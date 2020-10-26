@@ -3,12 +3,14 @@
 // Variables que obtiene datos del DOM
 const quiz = document.getElementById('quiz');
 const quizImg = document.getElementById('quiz-image');
+const progressEl = document.getElementById('progress-bar');
 const answersEls = document.querySelectorAll(".answer");
 const questionEl = document.getElementById('question');
 const a_text = document.getElementById('a_text');
 const b_text = document.getElementById('b_text');
 const c_text = document.getElementById('c_text');
 const d_text = document.getElementById('d_text');
+const authorEl = document.getElementById('quiz-footer');
 const submitBtn = document.getElementById('submit');
 
 // Variables
@@ -19,24 +21,28 @@ loadQuiz();
 
 // Función cargar preguntas
 function loadQuiz() {
-    
+   
     // Se deselecciona la respuesta para que aparezcan todas en blanco
     deselectedAnswers();
 
     // Variables que se cargan
     const currentQuizData = quizData[currentQuiz];
+    let progress = ((currentQuiz + 1) / quizData.length) * 100;
+    
+    // Valores del array de preguntas
+    quizImg.style.backgroundImage = `url("${currentQuizData.img}")`;
+    progressEl.style.width = progress + '%';
+    //progressEl.innerHTML = `${currentQuiz + 1}/${quizData.length}`;
     questionEl.innerHTML = currentQuizData.question;
-
-    // Valores de las respuestas que están guardadas en quizData
     a_text.innerHTML = currentQuizData.a;
     b_text.innerHTML = currentQuizData.b;
     c_text.innerHTML = currentQuizData.c;
     d_text.innerHTML = currentQuizData.d;
-    quizImg.style.backgroundImage = `url("${currentQuizData.img}")`;
+    authorEl.innerHTML = `Pregunta de: ${currentQuizData.author}`;
 
 }
 
-// Función para tomar la opción seleccioanda de la pregunta
+// Función para tomar la opción seleccionada de la pregunta
 function getSelected() {
     
     // Variables
@@ -94,7 +100,7 @@ submitBtn.addEventListener('click', ()=> {
                 </p>
 
                 <button onclick="location.reload()">Reiniciar</button>
-                `
+                `;
         }
 
     }

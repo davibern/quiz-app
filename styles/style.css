@@ -44,6 +44,23 @@ body {
     padding: 1.4rem;
 }
 
+#progress {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 3em;
+}
+
+#progress-bar {
+    width: 10%;
+    height: 30px;
+    background-color: #a1549b;
+    border-radius: 3em;
+    text-align: center;
+    justify-content: center;
+    line-height: 30px;
+    color: white;
+}
+
 h2 {
     margin: 0;
     text-align: center;
@@ -81,6 +98,13 @@ ul li {
 
 ul li label {
     cursor: pointer;
+}
+
+.quiz-footer {
+    padding-bottom: 2em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 button {

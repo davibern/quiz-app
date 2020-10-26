@@ -5,13 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
     <div class="quiz-container" id="quiz">
+
+        <!-- Cabecera con la imagen de la pregunta -->
         <div class="quiz-image" id="quiz-image">
             <p class="big-text">¿Genio o Plumilla?</p>
         </div>
+
+        <!-- Pregunta -->
         <div class="quiz-header">
+
+            <!-- Progreso del trivial -->
+            <div id="progress">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+
+            <!-- Preguntas -->
             <h2 id="question">Pregunta</h2>
             <ul>
                 <li>
@@ -32,6 +44,9 @@
                 </li>
             </ul>
         </div>
+
+        <!-- Pie con el autor de la pregunta -->
+        <div class="quiz-footer" id="quiz-footer"></div>
 
         <button id="submit">Responder</button>
     </div>
