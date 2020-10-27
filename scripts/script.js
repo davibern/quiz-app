@@ -86,17 +86,46 @@ submitBtn.addEventListener('click', ()=> {
         if(currentQuiz < quizData.length) {
             loadQuiz();
         } else {
-            quiz.innerHTML = `
-                <h2>Tus respuestas correctas son ${score}/${quizData.length}</h2>
 
-                <p>
-                    0-1: Cuñao<br/>
-                    2-3: Clodomiro<br/>
-                    4-5: Plumilla<br/>
-                    6-7: Bubillo<br/>
-                    8-9: Feriante<br/>
-                    +10: Genio de las calles
-                </p>
+            let scoreFinal = (score / quizData.length) * 100;
+
+            quiz.innerHTML = `
+                <h2>Tus respuestas correctas son ${score}/${quizData.length} (${scoreFinal}%)</h2>
+
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Porcentaje</th>
+                        <th>Rango</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0%-10%</td>
+                            <td>Cuñao</td>
+                        </tr>
+                        <tr>
+                            <td>11%-30%</td>
+                            <td>Clodomiro</td>
+                        </tr>
+                        <tr>
+                            <td>31%-50%</td>
+                            <td>Plumilla</td>
+                        </tr>
+                        <tr>
+                            <td>51%-70%</td>
+                            <td>Bubillo</td>
+                        </tr>
+                        <tr>
+                            <td>81%-90%</td>
+                            <td>Feriante</td>
+                        </tr>
+                        <tr>
+                            <td>91%-100%</td>
+                            <td>Genio de las calles</td>
+                        </tr>
+                    </tbody>
+                </table>
 
                 <button onclick="location.reload()">Reiniciar</button>
                 `;

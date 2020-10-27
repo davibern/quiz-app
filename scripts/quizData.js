@@ -460,6 +460,46 @@ const quizData = [
         img: './pics/slobulus-series.jpg',
         author: 'Roberto Piña',
         correct: 'c'
+    },
+    {
+        question: '¿En qué día suele celebrarse el Fernando Almeida World Tour anual?',
+        a: 'Día del trabajador (1 de mayo)',
+        b: 'Halloween (31 de octubre)',
+        c: 'Navidad (25 de diciembre)',
+        d: 'San Valentín (14 de febrero)',
+        img: './pics/almeida.jpg',
+        author: 'Albon',
+        correct: 'd'
+    },
+    {
+        question: '¿Cómo se llamaba la tortuga de Slo?',
+        a: 'Porsche',
+        b: 'Ferrari',
+        c: 'Maserati',
+        d: 'Seat',
+        img: './pics/tortuga.jpg',
+        author: 'Alfon',
+        correct: 'a'
+    },
+    {
+        question: '¿Quién tiene derecho a una tirada en la ruleta?',
+        a: 'Los suscritos y los que donen mínimo 50 bits',
+        b: 'Los que se hayan suscrito al menos una vez en los últimos 3 meses',
+        c: 'Los suscritos y los que donen mínimo de 2.000 bits',
+        d: 'Los suscritos y los que donen mínimo 100 bits',
+        img: './pics/ruleta.jpg',
+        author: 'Davidbp_',
+        correct: 'd'
+    },
+    {
+        question: '¿A quién se debe el nombre del Porzingi en la ruleta?',
+        a: 'A un jugador ucraniano de petanca',
+        b: 'A un jugador de poker ruso, famoso por las trilerías con las escaleras de color',
+        c: 'A un jugador de baloncesto de los Knicks',
+        d: 'A un mecánico gafe de la fórmula 1',
+        img: './pics/ruleta.jpg',
+        author: 'Davidbp_',
+        correct: 'c'
     }
 
 ]

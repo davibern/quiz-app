@@ -4,6 +4,45 @@
     box-sizing: border-box;
 }
 
+/* Index */
+
+.fondo {
+    background-image: url('../pics/fondo-index.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 600px;
+    height: auto;
+    background-color: #be6ce0;
+    border-radius: 5em;
+}
+
+.table {
+    align-items: center;
+    border: 0;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.img-start {
+    border-radius: 10em;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 0.50em;
+}
+
+/* Trivial */
+
 body {
     background-color: #b8c6db;
     background-image: linear-gradient(
@@ -21,7 +60,7 @@ body {
 
 .quiz-container {
     background-color: #fff;
-    width: 600px;
+    width: 650px;
     border-radius: 10px;
     box-shadow: 0 0 10px 5px rgba(100, 100, 100, 0.1);
     max-width: 100%;
@@ -33,15 +72,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    margin: 0.1em;
-    border-radius: 0.5em;
-    margin-top: 0.3em;
-    padding: 5rem;
-    min-height: 100%;
+    padding: 3.6rem;
+    min-height: 50%;
 }
 
 .quiz-header {
-    padding: 1.4rem;
+    padding: 1.2rem;
 }
 
 #progress {
@@ -64,24 +100,25 @@ body {
 h2 {
     margin: 0;
     text-align: center;
+    justify-content: center;
     padding: 1rem;
 }
 
-.big-text {
-    text-shadow: 0.2rem 0.2rem rgb(158, 63, 63);
-    font-weight: normal;
-    font-size: 2.5em;
-    line-height: 1;
-    margin: 1rem;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
+p {
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
-p {
+.big-text {
+    text-shadow: 0.2rem 0.2rem rgb(0, 0, 0);
+    font-weight: normal;
+    font-size: 5em;
+    line-height: 1;
+    margin: 4rem;
+    color: rgb(64, 173, 206);
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -101,7 +138,7 @@ ul li label {
 }
 
 .quiz-footer {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     display: flex;
     text-align: center;
     justify-content: center;

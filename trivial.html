@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" type="image/jpg" href="./pics/slobulus.jpg">
+</head>
+<body>
+    <div class="quiz-container" id="quiz">
+
+        <!-- Cabecera con la imagen de la pregunta -->
+        <div class="quiz-image" id="quiz-image">
+            <p class="big-text">¿Genio o Plumilla?</p>
+        </div>
+
+        <!-- Pregunta -->
+        <div class="quiz-header">
+
+            <!-- Progreso del trivial -->
+            <div id="progress">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+
+            <!-- Preguntas -->
+            <h2 id="question">Pregunta</h2>
+            <ul>
+                <li>
+                    <input type="radio" id="a" name="answer" class="answer">
+                    <label id="a_text" for="a">Opción</label>
+                </li>
+                <li>
+                    <input type="radio" id="b" name="answer" class="answer">
+                    <label id="b_text" for="b">Opción</label>
+                </li>
+                <li>
+                    <input type="radio" id="c" name="answer" class="answer">
+                    <label id="c_text" for="c">Opción</label>
+                </li>
+                <li>
+                    <input type="radio" id="d" name="answer" class="answer">
+                    <label id="d_text" for="d">Opción</label>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Pie con el autor de la pregunta -->
+        <div class="quiz-footer" id="quiz-footer"></div>
+
+        <button id="submit">Responder</button>
+    </div>
+
+    <script src="./scripts/quizData.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

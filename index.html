@@ -1,57 +1,60 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
+    <meta name="description" content="Juego del trivial de Slobulus">
+    <meta name="author" content="Davidbp">
+    <title>Trivial de Slobulus</title>
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" type="image/jpg" href="./pics/slobulus.jpg">
 </head>
-<body>
-    <div class="quiz-container" id="quiz">
+<body class="fondo">
 
-        <!-- Cabecera con la imagen de la pregunta -->
-        <div class="quiz-image" id="quiz-image">
-            <p class="big-text">¿Genio o Plumilla?</p>
-        </div>
+    <div class="container">
+        <h2>El Trivial de Slobulus</h2>
+        <p>Completa las 50 preguntas del Trivial y descubre si eres más un <strong>Genio o un Plumilla</strong>.</p>
+        <p>Hay 50 preguntas en total.</p>
+        <p>Y en función del porcentaje de respuestas obtenidas, obtendrás el siguiente rango:</p>
 
-        <!-- Pregunta -->
-        <div class="quiz-header">
+        <table class="table">
+            <thead>
+              <tr>
+                <th>Porcentaje</th>
+                <th>Rango</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>0%-10%</td>
+                <td>Cuñao</td>
+              </tr>
+              <tr>
+                <td>11%-30%</td>
+                <td>Clodomiro</td>
+              </tr>
+              <tr>
+                <td>31%-50%</td>
+                <td>Plumilla</td>
+              </tr>
+              <tr>
+                <td>51%-70%</td>
+                <td>Bubillo</td>
+              </tr>
+              <tr>
+                <td>81%-90%</td>
+                <td>Feriante</td>
+              </tr>
+              <tr>
+                <td>91%-100%</td>
+                <td>Genio de las calles</td>
+              </tr>
+            </tbody>
+        </table>
 
-            <!-- Progreso del trivial -->
-            <div id="progress">
-                <div class="progress-bar" id="progress-bar"></div>
-            </div>
-
-            <!-- Preguntas -->
-            <h2 id="question">Pregunta</h2>
-            <ul>
-                <li>
-                    <input type="radio" id="a" name="answer" class="answer">
-                    <label id="a_text" for="a">Opción</label>
-                </li>
-                <li>
-                    <input type="radio" id="b" name="answer" class="answer">
-                    <label id="b_text" for="b">Opción</label>
-                </li>
-                <li>
-                    <input type="radio" id="c" name="answer" class="answer">
-                    <label id="c_text" for="c">Opción</label>
-                </li>
-                <li>
-                    <input type="radio" id="d" name="answer" class="answer">
-                    <label id="d_text" for="d">Opción</label>
-                </li>
-            </ul>
-        </div>
-
-        <!-- Pie con el autor de la pregunta -->
-        <div class="quiz-footer" id="quiz-footer"></div>
-
-        <button id="submit">Responder</button>
+        <p>Haz clic en mi carita para empezar :)</p>
+        <a href="trivial.html"><img class="img-start" src="pics/slobulus.jpg" alt="Haz clic para empezar"></a>
     </div>
-
-    <script src="./scripts/quizData.js"></script>
-    <script src="./scripts/script.js"></script>
+   
 </body>
 </html>
