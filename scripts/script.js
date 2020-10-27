@@ -32,7 +32,7 @@ function loadQuiz() {
     // Valores del array de preguntas
     quizImg.style.backgroundImage = `url("${currentQuizData.img}")`;
     progressEl.style.width = progress + '%';
-    //progressEl.innerHTML = `${currentQuiz + 1}/${quizData.length}`;
+    progressEl.innerHTML = `${currentQuiz + 1}/${quizData.length}`;
     questionEl.innerHTML = currentQuizData.question;
     a_text.innerHTML = currentQuizData.a;
     b_text.innerHTML = currentQuizData.b;

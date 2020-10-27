@@ -452,124 +452,14 @@ const quizData = [
         correct: 'd'
     },
     {
-        question: '¿Mote de Slo de pequeño en el colegio?',
-        a: 'Everest',
-        b: 'Mata-cobayas',
-        c: 'Terminator',
-        d: 'Porsche',
-        img: './pics/la-banda.jpg',
-        author: 'Alfon',
-        correct: 'a'
-    },
-    {
-        question: '¿Quien fue el primer jugador en ganar el Baston de Oro?',
-        a: 'Ibraimovic',
-        b: 'JuanFran',
-        c: 'Barry Richardson',
-        d: 'Messi',
-        img: './pics/abuelonchosfc.jpg',
-        author: 'Roberto Piña',
-        correct: 'c'
-    },
-    {
-        question: '¿Qué dispositivo de realidad virtual analizó American Slo?',
-        a: 'Virtual Boy',
-        b: 'PS VR',
-        c: 'Steam VR',
-        d: 'Oculus Rift',
-        img: './pics/american-slo.jpg',
-        author: 'Davidbp_',
-        correct: 'a'
-    },
-    {
-        question: '¿Cuál de los siguientes jugadores te puede dejar sin stock si le fichas para tu equipo de abuelonchos?',
-        a: 'Juanfran',
-        b: 'Joaquín',
-        c: 'Akinfenwa',
-        d: 'Iniesta',
-        img: './pics/abuelonchosfc.jpg',
-        author: 'Sergicontre',
-        correct: 'c'
-    },
-    {
-        question: '¿Con quién cenas si quedas el último en las canicas de Twitch?',
-        a: 'Bosescu',
-        b: 'Falete',
-        c: 'Bordalás',
-        d: 'Sabrina',
-        img: './pics/marbles.jpg',
-        author: 'Alfon',
-        correct: 'c'
-    },
-    {
-        question: '¿Cuál es el coche favorito de Slo en Wreckfest?',
-        a: 'Muddiger',
-        b: 'Rocket',
-        c: 'Killerbee',
-        d: 'Boomer',
-        img: './pics/wreckfest.jpg',
-        author: 'Cebolletagames',
-        correct: 'c'
-    },
-    {
-        question: '¿En qué canal de televisión se ve mejor el Boxeo?',
-        a: 'Netflix',
-        b: 'Canal+',
-        c: 'Antenta 3',
-        d: 'En ninguno de los anteriores',
-        img: './pics/boxeo.jpg',
-        author: 'Roberto Piña',
-        correct: 'b'
-    },
-    {
-        question: '¿Cuál es el sistema preferido de American Slo?',
-        a: 'Spectrum',
-        b: 'TurboGrafx',
-        c: 'Master System',
-        d: 'Odia los videojuegos',
-        img: './pics/american-slo.jpg',
-        author: 'Davidbp_',
-        correct: 'b' 
-    },
-    {
-        question: '¿El equipo favorito de Slo de NFL?',
-        a: 'Miami Dolphins',
-        b: 'Seattle Seahawks',
-        c: 'Tennesse Titans',
-        d: 'Dallas Cowboys',
-        img: './pics/nfl.jpg',
-        author: 'Roberto Piña',
-        correct: 'c'
-    },
-    {
-        question: '¿Cuál es el nombre de pila de Slobulus?',
-        a: 'Daniel',
-        b: 'Ignacio',
-        c: 'Miguel Ángel',
-        d: 'Kevin',
+        question: '¿A que sonido se refiere la expresión "sonido ancestral"?',
+        a: 'Al sonido que hacen los juegos de spectrum cuando estan cargando',
+        b: 'Al sonido que hacen los demonios del Doom',
+        c: 'Al sonido que hace la cucharilla contra el vaso al remover el Nesquik',
+        d: 'Al sonido de cuando tiras de la cisterna',
         img: './pics/slobulus-series.jpg',
         author: 'Roberto Piña',
         correct: 'c'
-    },
-    {
-        question: '¿Qué tiene Slo colgado de la pared encima de su monitor?',
-        a: 'Una foto de Falete',
-        b: 'Un poster de Metroid',
-        c: 'Su título universitario de Físico Teórico',
-        d: 'Un esqueleto tocando la guitarra',
-        img: './pics/trinchera.jpg',
-        author: 'Roberto Piña',
-        correct: 'c'
-    },
-    {
-        question: '¿Donde nació Slobulus?',
-        a: 'Cataluña',
-        b: 'Andalucía',
-        c: 'Murcia',
-        d: 'Texas',
-        img: './pics/slobulus-series.jpg',
-        author: 'Alfon',
-        correct: 'a'
     }
 
 ]
