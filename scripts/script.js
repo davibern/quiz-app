@@ -94,34 +94,34 @@ submitBtn.addEventListener('click', ()=> {
 
                 <table class="table">
                     <thead>
-                    <tr>
-                        <th>Porcentaje</th>
-                        <th>Rango</th>
-                    </tr>
+                        <tr>
+                            <th>Porcentaje</th>
+                            <th>Rango</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>0%-10%</td>
+                            <td>0%-20%</td>
                             <td>Cuñao</td>
                         </tr>
                         <tr>
-                            <td>11%-30%</td>
+                            <td>21%-40%</td>
                             <td>Clodomiro</td>
                         </tr>
                         <tr>
-                            <td>31%-50%</td>
+                            <td>41%-60%</td>
                             <td>Plumilla</td>
                         </tr>
                         <tr>
-                            <td>51%-70%</td>
+                            <td>61%-80%</td>
                             <td>Bubillo</td>
                         </tr>
                         <tr>
-                            <td>81%-90%</td>
+                            <td>81%-95%</td>
                             <td>Feriante</td>
                         </tr>
                         <tr>
-                            <td>91%-100%</td>
+                            <td>95%-100%</td>
                             <td>Genio de las calles</td>
                         </tr>
                     </tbody>

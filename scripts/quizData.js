@@ -102,12 +102,12 @@ const quizData = [
     },
     {
         question: 'Piloto favorito de Slobulus de todos los tiempos',
-        a: 'Maldonado',
-        b: 'Alonso',
-        c: 'Senna',
-        d: 'Kimi',
+        a: 'Pastor Maldonado',
+        b: 'Fernando Alonso',
+        c: 'Ayrton Senna',
+        d: 'Kimi Raikkonen',
         img: './pics/f1.jpg',
-        author: 'Josedk',
+        author: 'Josekdj',
         correct: 'd'
     },
     {
@@ -121,7 +121,7 @@ const quizData = [
         correct: 'd'
     },
     {
-        question: '¿En qué año entro en escena American Slo?',
+        question: '¿En qué año entró en escena American Slo?',
         a: '2013',
         b: '2014',
         c: '2015',
@@ -175,7 +175,7 @@ const quizData = [
         a: 'Dishonored',
         b: 'System Shock 2', 
         c: 'The Last of Us',
-        d: 'Chrono cross',
+        d: 'Chrono Cross',
         img: './pics/slobulus-series.jpg',
         author: 'Jorgefp88',
         correct: 'd'
@@ -211,7 +211,7 @@ const quizData = [
         correct: 'b'
     },
     {
-        question: '¿Qué pegatina tiene el garaje en miniatura que construó el abuelo de Slo?',
+        question: '¿Qué pegatina tiene el garaje en miniatura que construyó el abuelo de Slo?',
         a: 'Pryca',
         b: 'Bollycao',
         c: 'Tigretón',
@@ -231,7 +231,7 @@ const quizData = [
         correct: 'd'
     },
     {
-        question: '¿Cuantas cucharadas "pequeñas" de azucar pone Slo en los batidos de platano y fresa?',
+        question: '¿Cuántas cucharadas "pequeñas" de azúcar pone Slo en los batidos de plátano y fresa?',
         a: '2',
         b: '4',
         c: '8',
@@ -301,7 +301,7 @@ const quizData = [
         correct: 'a'
     },
     {
-        question: '¿Quien fue el primer jugador en ganar el Baston de Oro?',
+        question: '¿Quién fue el primer jugador en ganar el Bastón de Oro?',
         a: 'Ibraimovic',
         b: 'JuanFran',
         c: 'Barry Richardson',
@@ -321,7 +321,7 @@ const quizData = [
         correct: 'a'
     },
     {
-        question: '¿Cuál de los siguientes jugadores te puede dejar sin stock si le fichas para tu equipo de abuelonchos?',
+        question: '¿Cuál de los siguientes jugadores te puede dejar sin stock si le fichas para tu equipo de Abuelonchos?',
         a: 'Juanfran',
         b: 'Joaquín',
         c: 'Akinfenwa',
@@ -393,7 +393,7 @@ const quizData = [
     {
         question: '¿Qué tiene Slo colgado de la pared encima de su monitor?',
         a: 'Una foto de Falete',
-        b: 'Un poster de Metroid',
+        b: 'Un póster de Metroid',
         c: 'Su título universitario de Físico Teórico',
         d: 'Un esqueleto tocando la guitarra',
         img: './pics/trinchera.jpg',
@@ -401,7 +401,7 @@ const quizData = [
         correct: 'c'
     },
     {
-        question: '¿Donde nació Slobulus?',
+        question: '¿Dónde nació Slobulus?',
         a: 'Cataluña',
         b: 'Andalucía',
         c: 'Murcia',
@@ -411,7 +411,7 @@ const quizData = [
         correct: 'a'
     },
     {
-        question: '¿Cuánto bits en Twitch prometieron regalarle a Slo si se pasaba un gimnasio sin morir ninguna vez?',
+        question: '¿Cuántos bits prometieron regalarle a Slo en Twitch si se pasaba un gimnasio sin morir ninguna vez?',
         a: '1.000',
         b: '2.000',
         c: '3.500',
@@ -431,7 +431,7 @@ const quizData = [
         correct: 'c'
     },
     {
-        question: 'Si Slo hiciera un videojuego, ¿en qué universo lo ambientaría',
+        question: 'Si Slo hiciera un videojuego, ¿en qué universo lo ambientaría?',
         a: 'Terminator',
         b: 'FIFA',
         c: 'Robocop',
@@ -452,8 +452,8 @@ const quizData = [
         correct: 'd'
     },
     {
-        question: '¿A que sonido se refiere la expresión "sonido ancestral"?',
-        a: 'Al sonido que hacen los juegos de spectrum cuando estan cargando',
+        question: '¿A qué sonido se refiere la expresión "sonido ancestral"?',
+        a: 'Al sonido que hacen los juegos de Spectrum cuando están cargando',
         b: 'Al sonido que hacen los demonios del Doom',
         c: 'Al sonido que hace la cucharilla contra el vaso al remover el Nesquik',
         d: 'Al sonido de cuando tiras de la cisterna',
@@ -468,7 +468,7 @@ const quizData = [
         c: 'Navidad (25 de diciembre)',
         d: 'San Valentín (14 de febrero)',
         img: './pics/almeida.jpg',
-        author: 'Albon',
+        author: 'Alfon',
         correct: 'd'
     },
     {
