@@ -371,7 +371,7 @@ const quizData = [
         correct: 'b' 
     },
     {
-        question: '¿El equipo favorito de Slo de NFL?',
+        question: '¿Cuál es el equipo favorito de Slo de la NFL?',
         a: 'Miami Dolphins',
         b: 'Seattle Seahawks',
         c: 'Tennesse Titans',
