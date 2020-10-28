@@ -251,7 +251,7 @@ const quizData = [
         correct: 'c'
     },
     {
-        question: '¿El juego de estrategia favorito de Slo?',
+        question: '¿Cuál es el juego de estrategia favorito de Slo?',
         a: 'Age of Empire II',
         b: 'Warcraft 2',
         c: 'Starcraft', 
@@ -291,7 +291,7 @@ const quizData = [
         correct: 'd'
     },
     {
-        question: '¿Mote de Slo de pequeño en el colegio?',
+        question: '¿Cuál fue el mote de Slo de pequeño en el colegio?',
         a: 'Everest',
         b: 'Mata-cobayas',
         c: 'Terminator',
