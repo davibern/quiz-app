@@ -121,7 +121,7 @@ submitBtn.addEventListener('click', ()=> {
                             <td>Feriante</td>
                         </tr>
                         <tr>
-                            <td>95%-100%</td>
+                            <td>96%-100%</td>
                             <td>Genio de las calles</td>
                         </tr>
                     </tbody>

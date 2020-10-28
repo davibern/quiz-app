@@ -40,7 +40,7 @@ const quizData = [
         correct: 'a'
     },
     {
-        question: '¿Cuál fue el primer juego del que hizo una serie en el canal de Slobulus?',
+        question: '¿Cuál fue el primer juego del que se hizo una serie en el canal de Slobulus?',
         a: 'Sonic de Master System',
         b: 'Castlevania Simphony of the Night',
         c: 'Flashback',
@@ -171,7 +171,7 @@ const quizData = [
         correct: 'c'
     },
     {
-        question: '¿Cuál es la serie más larga en el rincón de Slobulus?',
+        question: '¿Cuál es la serie más larga en El Rincón de Slobulus?',
         a: 'Dishonored',
         b: 'System Shock 2', 
         c: 'The Last of Us',
@@ -271,7 +271,7 @@ const quizData = [
         correct: 'a'
     },
     {
-        question: '¿A que FPS multijugador jugó buena parte de las horas de la clase de informática del instituto Slo?',
+        question: '¿A qué FPS multijugador jugó Slo buena parte de las horas de la clase de Informática del instituto?',
         a: 'Quake',
         b: 'Duke Nukem 3D',
         c: 'Doom',
@@ -284,7 +284,7 @@ const quizData = [
         question: '¿A qué se dedicaba el padre de los bubillos?',
         a: 'Agente comercial',
         b: 'Camarero',
-        c: 'Policia Nacional',
+        c: 'Policía Nacional',
         d: 'Vendedor de un puesto de pipas',
         img: './pics/bubillos.jpg',
         author: 'Roberto Piña',
