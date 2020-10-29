@@ -266,7 +266,7 @@ const quizData = [
         b: 'Emule',
         c: 'Photoshop',
         d: 'Buscaminas',
-        img: './pics/informatica.jpg',
+        img: './pics/clase-informatica.jpg',
         author: 'Alfon',
         correct: 'a'
     },
